@@ -1,0 +1,16 @@
+.banner {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../../assets/banner-bg.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    color: var(--clr-grey-7);
+}
+
+.text {
+    color: var(--clr-primary-10);
+    max-width: 800px;
+}

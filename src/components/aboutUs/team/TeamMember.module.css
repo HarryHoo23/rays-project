@@ -1,0 +1,22 @@
+.team-card {
+    max-width: 320px;
+    border-radius: 15px;
+    box-shadow: var(--light-shadow);
+    cursor: pointer;
+    transition: ease-in-out all 0.2s;
+}
+
+.team-card:hover {
+    transform: scale(1.05); 
+    /* zoom: 1.05; */
+}
+
+.team-image {
+    max-width: 200px;
+    margin: auto;
+}
+
+.description{
+    margin-top: 30px;
+    font-size: 15px;
+}
