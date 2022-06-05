@@ -1,9 +1,8 @@
 import React from 'react';
-import CustomCountUp from '../../elements/countUp/CustomCountUp';
+import CustomCountUp from '../elements/countUp/CustomCountUp';
 import { Row, Col } from 'react-bootstrap';
-import { number_content } from '../../../data/content';
+import { number_content } from '../../data/content';
 import styles from './NumberRow.module.css';
-import { number } from 'prop-types';
 
 const NumberRow = () => {
     return (

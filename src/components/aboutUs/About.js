@@ -5,8 +5,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination } from "swiper";
 import TeamMember from "./team/TeamMember";
 import { teams_content } from "../../data/content";
-import CustomCountUp from "../elements/countUp/CustomCountUp";
-import NumberRow from "./numberRow/NumberRow";
 import styles from "./About.module.css";
 
 SwiperCore.use([Pagination]);
@@ -30,10 +28,7 @@ const About = () => {
                             libero rem, velit beatae?
                         </p>
                     </Col>
-                </Row>      
-                <div className="mt-5">
-                    <NumberRow />
-                </div>
+                </Row>                      
                 <Row className="mt-5">
                     <h3 className="title title-black">Team member</h3>
                     <Col md={12} className="mt-5">

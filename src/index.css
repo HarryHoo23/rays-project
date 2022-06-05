@@ -143,6 +143,10 @@ p {
     position: relative;
 }
 
+.title-white {
+    color: #f9f9f9;
+}
+
 .title::before {
     position: absolute;
     content: "";
