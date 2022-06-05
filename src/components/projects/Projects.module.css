@@ -1,7 +1,33 @@
-.service-row {
+.btn-container {
+    display: flex;
+    gap: 10px;
+}
+
+.row {
     display: grid;
-    margin: auto;
-    gap: 3rem 5rem;
-    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
-    margin-top: 3rem;
+    grid-template-columns: auto auto 1fr auto;
+    align-items: center;    
+    column-gap: 2rem;
+}
+
+.btn {
+    background: transparent;
+    border: 1px solid var(--clr-primary-2);
+    color: var(--clr-primary-2);
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.active {
+    background: var(--clr-primary-1);
+    color: var(--clr-white);
+}
+
+.btn svg {
+    font-size: 20px;
 }

@@ -4,10 +4,22 @@ const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
     const [isLoading, setIsLoading] = useState(false);
+    const [gridView, setGridView] = useState(true);
+
+    const handleSetGridView = () => {
+        setGridView(true);
+    }
+    
+    const handleSetListView = () => {
+        setGridView(false);
+    }
 
     return (
         <AppContext.Provider value={{
             isLoading,
+            gridView,
+            handleSetGridView,
+            handleSetListView
         }}>
             {children}
         </AppContext.Provider>

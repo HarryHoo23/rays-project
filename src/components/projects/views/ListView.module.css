@@ -1,0 +1,46 @@
+.project {
+    display: flex; 
+    margin-bottom: 3rem;
+    gap: 20px;
+}
+
+.project img {
+    max-width: 350px;
+    box-shadow: var(--light-shadow);
+    border-radius: 3px;
+}
+
+.project h4 {
+    font-size: 20px;
+}
+
+.project h4::before {
+    bottom: -10px;
+    width: 20px;
+    background-color: var(--clr-primary-6);
+}
+
+.project p {
+    max-width: 700px;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.btn {
+    background-color: var(--clr-primary-2);    
+    color: var(--clr-white);
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 4px;
+    display: inline-block;
+    max-width: 100px;
+}
+
+.btn:hover {
+    background-color: var(--clr-primary-4);
+    color: #f9f9f9;
+}

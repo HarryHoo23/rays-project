@@ -52,28 +52,28 @@ export const teams_content = [
 
 export const number_content = [
     {
-        id: 11,
+        id: 1,
         count: 80,
         unit: "%",
         title: "title here",
         icon: "url"
     },
     {
-        id: 12,
+        id: 2,
         count: 100,
         unit: "$",
         title: "title here",
         icon: "url"
     },
     {
-        id: 13,
+        id: 3,
         count: 7,
         unit: "%",
         title: "title here",
         icon: "url"
     },
     {
-        id: 14,
+        id: 4,
         count: 2000,
         unit: "",
         title: "title here",

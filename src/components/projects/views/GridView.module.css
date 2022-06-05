@@ -1,0 +1,7 @@
+.service-row {
+    display: grid;
+    margin: auto;
+    gap: 3rem 5rem;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    margin-top: 3rem;
+}
