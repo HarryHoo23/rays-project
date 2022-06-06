@@ -8,23 +8,23 @@ export const links = [
   },
   {
     id: 2,
-    url: '/about',
-    text: 'about',
+    url: '#about',
+    text: 'about us',
   },
   {
     id: 3,
-    url: '/projects',
-    text: 'projects',
+    url: '#services',
+    text: 'services',
   },
   {
     id: 4,
-    url: '/contact',
-    text: 'contact',
+    url: '#projects',
+    text: 'projects',
   },
   {
     id: 5,
-    url: '/profile',
-    text: 'profile',
+    url: '#contact',
+    text: 'contact us',
   },
 ];
 
@@ -43,10 +43,5 @@ export const social = [
     id: 3,
     url: 'https://www.twitter.com',
     icon: <FaLinkedin />,
-  },
-  {
-    id: 4,
-    url: 'https://www.twitter.com',
-    icon: <FaBehance />,
-  },
+  }
 ];

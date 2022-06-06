@@ -1,3 +1,11 @@
+.number-row {
+    background-color: var(--clr-grey-8);
+    padding: 50px 0;
+    border-radius: 10px;
+    box-shadow: var(--light-shadow);
+    margin-top: -40px;
+}
+
 .count {
     display: flex;
     flex-direction: column;

@@ -2,8 +2,10 @@ import React, { useEffect, useState } from "react";
 import { useGlobalContext } from "./context/app_context";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Loader from "./components/elements/Loader/Loader";
-import Homepage from "./components/homepage/Homepage";
+import Homepage from "./pages/homepage/Homepage";
+
 import Navbar from "./components/header&footer/Navbar";
+import Footer from "./components/header&footer/footer/Footer";
 
 function App() {    
 
@@ -23,7 +25,9 @@ function App() {
             <Navbar offset={offset} />
             <Routes>
                 <Route path="/" exact element={<Homepage />} />
+                
             </Routes>
+            <Footer />
         </Router>
     );
 }

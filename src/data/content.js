@@ -2,6 +2,7 @@ export const teams_content = [
     {
         id: 1,
         title: "lorem",
+        job_title: "Director",
         img: "https://t3.ftcdn.net/jpg/02/33/46/24/360_F_233462402_Fx1yke4ng4GA8TJikJZoiATrkncvW6Ib.jpg",
         description:
             "here is something about this guy1, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, veniam impedit explicabo quisquam dolor debitis soluta aut eum rerum veritatis necessitatibus totam voluptatibus omnis facere enim libero rem, velit beatae?",
@@ -9,6 +10,7 @@ export const teams_content = [
     {
         id: 2,
         title: "lorem",
+        job_title: "Director",
         img: "https://t3.ftcdn.net/jpg/02/33/46/24/360_F_233462402_Fx1yke4ng4GA8TJikJZoiATrkncvW6Ib.jpg",
         description:
             "here is something about this guy2, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, veniam impedit explicabo quisquam dolor debitis soluta aut eum rerum veritatis necessitatibus totam voluptatibus omnis facere enim libero rem, velit beatae?",
@@ -16,6 +18,7 @@ export const teams_content = [
     {
         id: 3,
         title: "lorem",
+        job_title: "Director",
         img: "https://t3.ftcdn.net/jpg/02/33/46/24/360_F_233462402_Fx1yke4ng4GA8TJikJZoiATrkncvW6Ib.jpg",
         description:
             "here is something about this guy3, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, veniam impedit explicabo quisquam dolor debitis soluta aut eum rerum veritatis necessitatibus totam voluptatibus omnis facere enim libero rem, velit beatae?",
@@ -23,6 +26,7 @@ export const teams_content = [
     {
         id: 4,
         title: "lorem",
+        job_title: "Director",
         img: "https://t3.ftcdn.net/jpg/02/33/46/24/360_F_233462402_Fx1yke4ng4GA8TJikJZoiATrkncvW6Ib.jpg",
         description:
             "here is something about this guy4, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, veniam impedit explicabo quisquam dolor debitis soluta aut eum rerum veritatis necessitatibus totam voluptatibus omnis facere enim libero rem, velit beatae?",
@@ -30,6 +34,7 @@ export const teams_content = [
     {
         id: 5,
         title: "lorem",
+        job_title: "Director",
         img: "https://t3.ftcdn.net/jpg/02/33/46/24/360_F_233462402_Fx1yke4ng4GA8TJikJZoiATrkncvW6Ib.jpg",
         description:
             "here is something about this guy4, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, veniam impedit explicabo quisquam dolor debitis soluta aut eum rerum veritatis necessitatibus totam voluptatibus omnis facere enim libero rem, velit beatae?",
@@ -37,6 +42,7 @@ export const teams_content = [
     {
         id: 6,
         title: "lorem",
+        job_title: "Director",
         img: "https://t3.ftcdn.net/jpg/02/33/46/24/360_F_233462402_Fx1yke4ng4GA8TJikJZoiATrkncvW6Ib.jpg",
         description:
             "here is something about this guy4, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, veniam impedit explicabo quisquam dolor debitis soluta aut eum rerum veritatis necessitatibus totam voluptatibus omnis facere enim libero rem, velit beatae?",
@@ -44,6 +50,7 @@ export const teams_content = [
     {
         id: 7,
         title: "lorem",
+        job_title: "Director",
         img: "https://t3.ftcdn.net/jpg/02/33/46/24/360_F_233462402_Fx1yke4ng4GA8TJikJZoiATrkncvW6Ib.jpg",
         description:
             "here is something about this guy4, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, veniam impedit explicabo quisquam dolor debitis soluta aut eum rerum veritatis necessitatibus totam voluptatibus omnis facere enim libero rem, velit beatae?",

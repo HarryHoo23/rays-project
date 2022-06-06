@@ -12,7 +12,7 @@ const Projects = () => {
     const { gridView, handleSetGridView, handleSetListView } = useGlobalContext();
 
     return (
-        <section className="section-spacer">
+        <section className="section-spacer" id="projects">
             <Container>
                 <h2 className="title title-black">Our projects</h2>
                 <section className={`mt-5 ${styles.row}`}>                    

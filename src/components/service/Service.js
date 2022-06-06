@@ -3,9 +3,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import styles from "./Service.module.css";
 
 const Service = () => {
-    return <section className={`section-spacer ${styles.services}`}>
+    return <section className={`section-spacer ${styles.services}`} id="services">
         <Container>
-            <h2 className="title title-white">Service</h2>
+            <h2 className="title title-white">Services</h2>
             <Row className={styles.row}>
                 <Col md={6}>
                     <p className={styles.paragraph}>

@@ -9,11 +9,11 @@ const ListView = () => {
             {projects.map((item) => {
                 return (
                     <article key={item.id} className={styles.project}>
-                        <img src={item.image} alt={item.title} />
+                        <img src={item.images[0]} alt={item.title} />
                         <div className={styles.detail}>
                             <h4 className="title">{item.title}</h4>                            
                             <p>{item.description.substring(0, 200)}...</p>
-                            <Link to={`/products`} className={styles.btn}>
+                            <Link to={`/project/${item.id}`} className={styles.btn}>
                                 Details
                             </Link>
                         </div>

@@ -11,7 +11,7 @@ SwiperCore.use([Pagination]);
 
 const About = () => {
     return (
-        <section className="section-spacer">
+        <section className="section-spacer" id="about">
             <Container>
                 <h2 className="title title-black">About us</h2>
                 <Row>

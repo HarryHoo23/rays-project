@@ -6,13 +6,13 @@ import { Link } from "react-router-dom";
 const Project = ({project}) => {
     return (
         <Card className={styles.card}>
-            <Card.Img variant="top" src={project.image} />
+            <Card.Img variant="top" src={project.images[0]} />
             <Card.Body>
                 <Card.Title className={`mb-3 title ${styles.title}`}>{project.title}</Card.Title>
                 <Card.Text className={`mb-3 ${styles.desc}`}>
                     {project.description.substring(0, 100)}...
                 </Card.Text>
-                <Link to="/project">
+                <Link to={`/project/${project.id}`}>
                     <Button className={styles.btn}>Read more</Button>
                 </Link>
             </Card.Body>
