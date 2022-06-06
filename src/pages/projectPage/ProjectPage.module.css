@@ -1,10 +1,5 @@
 .section {
-    background-color: var(--clr-grey-4);
     padding-top: 100px;
-}
-
-.container {
-    border-top: 1px solid var(--clr-grey-5);
 }
 
 .image {
@@ -16,6 +11,7 @@
 .swiper-container {
 }
 
-.mySwiper {
 
+.mySwiper {
+    padding: 20px;
 }

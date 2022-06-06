@@ -176,6 +176,11 @@ img {
     max-width: var(--max-width);
 }
 
+.project nav{
+    background-color: var(--clr-primary-2);    
+    box-shadow: var(--dark-shadow);
+}
+
 @media screen and (min-width: 992px) {
     .section {
         width: 95vw;
