@@ -9,9 +9,27 @@
 }
 
 .swiper-container {
+    padding: 0;
 }
 
 
 .mySwiper {
     padding: 20px;
+}
+
+.project {
+    padding: 20px;
+}
+
+.project h3 {
+    position: relative;
+}
+
+.project h3::before {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: var(--clr-primary-6);
+    bottom: -1.5rem;
 }

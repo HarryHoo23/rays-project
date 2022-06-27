@@ -1,8 +1,7 @@
-.services {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://images.unsplash.com/photo-1507608158173-1dcec673a2e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80") no-repeat;
-    background-size: cover;
-    background-position: center center;
+.services {    
     height: 60vh;
+    z-index: 2;
+    position: relative;
 }
 
 .row {
@@ -14,4 +13,25 @@
     color: #f9f9f9;
     max-width: 450px;
     margin-top: 30px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+@media screen and (max-width: 992px) {
+    .services {
+        height: auto;
+    }
+
+    .row {
+        flex-wrap: wrap;
+        gap: unset;
+    }
 }

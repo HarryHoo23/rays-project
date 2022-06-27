@@ -12,7 +12,7 @@ const ListView = () => {
                         <img src={item.images[0]} alt={item.title} />
                         <div className={styles.detail}>
                             <h4 className="title">{item.title}</h4>                            
-                            <p>{item.description.substring(0, 200)}...</p>
+                            <p>{item.description[0].substring(0, 200)}...</p>
                             <Link to={`/project/${item.id}`} className={styles.btn}>
                                 Details
                             </Link>

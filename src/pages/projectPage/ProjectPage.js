@@ -23,7 +23,7 @@ const ProjectPage = () => {
             <section className={styles.section}>
                 <Container className={`section-spacer ${styles.container}`}>                    
                     <Row>
-                        <Col lg={7} md={6} className={styles["swiper-container"]}>
+                        <Col lg={7} md={12} className={styles["swiper-container"]}>
                             <Swiper
                                 loop
                                 effect="cube"
@@ -34,7 +34,7 @@ const ProjectPage = () => {
                                     slideShadows: true,
                                     shadowOffset: 20,
                                     shadowScale: 0.94,
-                                }}                                
+                                }}                                                     
                                 pagination={{clickable: true}}                                
                                 className={styles.mySwiper}
                             >
@@ -47,8 +47,19 @@ const ProjectPage = () => {
                                 })}
                             </Swiper>
                         </Col>
-                        <Col lg={5} md={6}>
-                            {project.title}
+                        <Col lg={5} md={12} className="mt-5 mt-lg-0">
+                            <div className={styles.project}>
+                                <h3 className="bold">
+                                    {project.title}
+                                </h3>
+                                <div className={`${styles.desc} mt-5`}>
+                                    {project.description.map((item, index) => {
+                                        return (
+                                            <p key={index}>{item}</p>
+                                        )
+                                    })}
+                                </div>
+                            </div>
                         </Col>
                     </Row>
                 </Container>

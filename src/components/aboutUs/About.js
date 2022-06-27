@@ -34,11 +34,21 @@ const About = () => {
                     <Col md={12} className="mt-5">
                         <Swiper
                             spaceBetween={30}
-                            loop={false}
-                            slidesPerView={3}                            
+                            loop={false}                                                   
                             modules={[Pagination]}
                             pagination={{ clickable: true }}
                             className={styles.slider}
+                            breakpoints={{
+                                600: {                                   
+                                    slidesPerView: 1
+                                },
+                                768: {                                    
+                                    slidesPerView: 2
+                                },
+                                992: {
+                                    slidesPerView: 3
+                                }
+                            }}
                         >
                             {teams_content.map((member, index) => {
                                 return (
@@ -47,7 +57,7 @@ const About = () => {
                                     </SwiperSlide>
                                 );
                             })}
-                        </Swiper>
+                        </Swiper>                    
                     </Col>
                 </Row>
             </Container>

@@ -11,11 +11,6 @@
     padding: 80px 0px;
 }
 
-.row {
-    gap: 30px;
-    flex-wrap: nowrap;
-}
-
 .footer-container img {
     max-width: 200px;
 }
@@ -31,4 +26,10 @@
 
 .copyright {
     background-color: var(--clr-grey-3);
+}
+
+@media screen and (max-width: 768px) {
+    .row {
+        flex-wrap: wrap;
+    }
 }

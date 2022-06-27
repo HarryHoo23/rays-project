@@ -7,14 +7,14 @@ const Footer = () => {
     return <footer id="footer" className={styles.footer}>
         <Container className={styles['footer-container']}>
             <Row className={styles.row}>
-                <Col md={3} className="pt-5">
+                <Col lg={12} sm={12} className="pt-5 mb-lg-5 mb-3">
                     <img src={logo} alt="Logo" />
                 </Col>
-                <Col md={4}>
+                <Col lg={6} sm={6}>
                     <h3 className="mb-5 title title-white">Contact us</h3>
                     <img src="https://www.celine.com/on/demandware.static/-/Library-Sites-Celine-SharedLibrary/default/dw49c5cde2/staticpages/QR%20Code%20for%20celine.com_1009.jpg" alt="wechat-code" />
                 </Col>
-                <Col md={5}>
+                <Col lg={6} sm={6}>
                     <h3 className="mb-5 title title-white">Social</h3>
                     <ul>
                         <li>Facebook</li>
